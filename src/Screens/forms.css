@@ -1,0 +1,92 @@
+
+
+.form-div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-main{
+ 
+    margin-top: 1rem;
+    background-color: #fff;
+    padding:2rem;
+    width: 30rem;
+    /* border: 2px solid blue; */
+    box-shadow: 0px 7px 9px 0px #d8d8d8;
+}   
+
+.input-field{
+    margin:1rem 0;
+    width:20rem;
+    margin-top: 0.5rem;
+    padding: 0.7rem 1rem;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    font-size: 1.125rem;
+    color: rgb(0, 0, 0);
+    /* opacity: 0.7; */
+    border-radius: 12px;
+    outline:none;
+
+    outline-width: 1px;
+
+}
+
+.input-field:focus{
+    border:0;
+    border-bottom: 1px solid rgb(24, 22, 22);
+}
+
+.form-btn{
+    margin:1rem 0;
+    border:1px solid rgb(158, 193, 247);
+    padding:0.5rem  2rem;
+    border-radius: 10px;
+}
+
+.form-btn:hover{
+    background-color:rgb(158, 193, 247);
+}
+
+.form-text{
+    margin-top: 0.5rem;
+}
+
+.form-text a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:rgb(54, 86, 153);
+}
+.form-text a:hover{
+    background-color: rgb(158, 193, 247);
+}
+
+.form-verify{
+    margin-top:2rem;
+    display:flex;
+
+}
+
+.form-verify-input{
+    margin:1rem 0.5rem;
+    width:4rem;
+
+    margin-top: 0.5rem;
+    padding: 0.7rem 1rem;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    font-size: 1.125rem;
+    color: rgb(0, 0, 0);
+ 
+    border-radius: 12px;
+    outline:none;
+
+    outline-width: 1px;
+}

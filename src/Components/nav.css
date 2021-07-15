@@ -1,0 +1,53 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  background-color: rgb(255, 255, 255);
+
+  box-shadow: 0px 7px 9px 0px #d8d8d8;
+}
+
+.navbar-brand {
+  margin: 0 3rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  padding: 1rem;
+  margin: 0 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: normal;
+  color: rgb(8, 3, 3);
+}
+
+nav ul li:hover {
+  background-color: rgb(158, 193, 247);
+}
+
+.alertClasses{
+  width:20rem;
+  margin:0.5rem;
+  padding:0.5rem;
+  color: white;
+}
+.alertClasses-notactive{
+  display:hidden;
+}
+
+.alert-bg-red{
+  background-color:rgb(248, 73, 73);
+}
+
+.alert-bg-green{
+  background-color:rgb(95, 255, 130);
+}
